@@ -1,0 +1,31 @@
+10
+
+dir
+20
+https://wicket-guice-jaxws.googlecode.com/svn/trunk/org.codesmell.wicket.ws.guice/src/main/java/org/codesmell/wicket/ws
+https://wicket-guice-jaxws.googlecode.com/svn
+
+
+
+2009-08-28T16:05:33.318216Z
+3
+uwe@codesmell.de
+
+
+svn:special svn:externals svn:needs-lock
+
+
+
+
+
+
+
+
+
+
+
+2b348934-93ec-11de-9b71-cb34e3bcb0e2
+
+guice
+dir
+
