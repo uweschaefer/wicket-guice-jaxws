@@ -1,5 +1,5 @@
 /**
- * 
+ *
  */
 package org.codesmell.wicket.ws.guice;
 
@@ -14,18 +14,15 @@ import com.google.inject.name.Named;
  */
 @WicketGuiceManaged
 @WebService(name = "echo")
-public class EchoService
-{
-    @Inject
-    @Named("test")
-    private String prefix = "";
+public class EchoService {
+	@Inject
+	@Named("test")
+	private String prefix = "";
 
-    public EchoService()
-    {
-    }
+	public EchoService() {
+	}
 
-    public String echo(@WebParam(name = "message") final String msg)
-    {
-        return prefix + " " + msg;
-    }
+	public String echo(@WebParam(name = "message") final String msg) {
+		return prefix + " " + msg;
+	}
 }
